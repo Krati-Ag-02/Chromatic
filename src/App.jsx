@@ -218,21 +218,7 @@ export default function ChromaticApp() {
         {screen === "home" && (
           <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center" }}>
             <div style={{ textAlign: "center", marginBottom: "32px" }}>
-              <div style={{
-                display: "inline-block",
-                padding: "4px 12px",
-                borderRadius: "20px",
-                background: "rgba(5, 217, 232, 0.12)",
-                border: "1px solid rgba(5, 217, 232, 0.3)",
-                color: "#05d9e8",
-                fontSize: "10px",
-                fontWeight: 800,
-                letterSpacing: "0.2em",
-                marginBottom: "12px",
-                textTransform: "uppercase"
-              }}>
-                SYNTHETIC MEMORY LAB
-              </div>
+              
               <h1 style={{
                 fontSize: "38px",
                 margin: 0,
